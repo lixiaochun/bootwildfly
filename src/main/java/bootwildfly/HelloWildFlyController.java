@@ -8,7 +8,12 @@ public class HelloWildFlyController {
 
 
     @RequestMapping("hello")
-    public String sayHello(){
+    public String sayHello1(){
         return ("Hello, SpringBoot on Wildfly");
+    }
+    
+    @RequestMapping("/")
+    public String sayHello2(){
+        return ("Hello, SpringBoot on Wildfly 13222424");
     }
 }
